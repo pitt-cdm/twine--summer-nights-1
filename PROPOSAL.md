@@ -4,7 +4,7 @@ Guiding questions are in comments; add your answers outside the comments, where 
 
 
 <!-- Who is working on this project? -->
-
+Tessa, Laura, Jenny C. and Jared 
 
 
 
@@ -13,7 +13,10 @@ Guiding questions are in comments; add your answers outside the comments, where 
 
 
 <!-- What's the basic pitch for the Twine narrative? Where do you start? Who do you play as? What's the genre? -->
-
+A group of neighborhood kids get together one summer night to play a game of Jail Break. One kid will be 'it' and the other 
+three will hide. You will start in a quiet backyard, but where you will end up is up to you. Pick your character wisely 
+because in the end, there will only be one winner. 
+Hopefully this thrilling game will take you back to summer nights when you were younger. 
 
 
 
@@ -22,7 +25,11 @@ Guiding questions are in comments; add your answers outside the comments, where 
 
 <!-- What overall mode of collaboration are you planning to use: divide the work by project sections? by media types and expertise? by compromise and consensus all the way through?
 
+For our collaboration, we are each going to plan out our own characters and their paths. Jared is going to be the master behind the CSS (with some suggestions and help, of course). Once we all have our basic paths down, we are going to come together and plan how to interact each character a little more to enhance the game. 
+Tessa will get background images where it is applicable. 
+
 Now add some specificity to that general plan: who will take what role, at what points? How will you communicate with each other?
+We are going to communicate over text and email. 
 
 IMPORTANT: never include personal info like phone numbers on GitHub! -->
 
