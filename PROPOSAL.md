@@ -21,7 +21,9 @@ Now add some specificity to that general plan: who will take what role, at what 
 We are going to communicate over text and email. 
 
 
-Basic Plan: 
+*strong* Basic Plan: *strong*
+
+
 Hiding Places:
 in the garage
 under a car
@@ -31,6 +33,7 @@ in an alley
 on someone's porch 
 in the creepy neighbor's backyard
 at the church 
+
 
 Possible ways to lose: 
 you get caught 
