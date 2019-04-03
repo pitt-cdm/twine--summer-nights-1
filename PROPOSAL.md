@@ -4,7 +4,7 @@ Guiding questions are in comments; add your answers outside the comments, where 
 
 
 <!-- Who is working on this project? -->
-Tessa, Laura, Jenny C. and Jared 
+**Tessa, Laura, Jenny C. and Jared** 
 
 
 <!-- What's the basic pitch for the Twine narrative? Where do you start? Who do you play as? What's the genre? -->
@@ -24,18 +24,17 @@ We are going to communicate over text and email.
 <strong> Basic Plan: </strong>
 
 
-Hiding Places:
-in the garage
-under a car
-behind a telephone pole 
-up a tree
-in an alley 
-on someone's porch 
-in the creepy neighbor's backyard
-at the church 
+**Hiding Places:**
+* In the garage
+* Under a car
+* Behind a telephone pole 
+* Up a tree
+* In an alley 
+* On someone's porch 
+* In the creepy neighbor's backyard at the church 
 
 
-Possible ways to lose: 
-you get caught 
-you wake up a neighbor 
-you're out past curfew and your parents come looking for you 
+**Possible ways to lose:** 
+* You get caught 
+* You wake up a neighbor 
+* You're out past curfew and your parents come looking for you 
