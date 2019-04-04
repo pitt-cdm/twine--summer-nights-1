@@ -131,65 +131,8 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">//requires jquery
 
-var seeker_location = '';
-var hider_location = '';
-
-var location_array = [];
-$(document).ready(function () {
-    // Confirm that the script is connected to the web-page
-    console.log("Script Loaded")
-    create_mapping();
-})
-
-/// Create the map of locations that can be traversed
-function create_mapping() {
-    // Location object that represents a hiding place
-    var location = {
-        name:'',
-        connected_locations: [],
-        has_seeker: false
-    };
-    // Create the different location objects for each location
-    var Church = location;
-    Chruch.name = 'Church';
-    var Alley = location;
-    Alley.name = 'Alley';
-		var Tree = location;
-		Tree.name = 'Tree';
-		
-    // Add all location objects to the location array
-
-    // Create connections between different locations based on map
-
-}
-
-// Get the location object corresponding to the passed in string
-function get_location_obj(location_str) {
-    for (var loc in location_array) {
-        if (loc.name === location_str) {
-            return loc;
-        }
-    }
-    console.log('Error - Could not match location str to object');
-}
-// Function to check how close the seeker is to the current location of the hider
-function check_seeker_distance(hider_loc, seeker_loc) {
-    for each spot in
-}
-// Move the seeker's location to a new one to search for hiders
-function seeker_move() {
-
-    return seeker_loc;
-}
-// Function that is called everytime a passage is rendered
-prerender.hello = function() {
-    seeker_move()
-}
-
-
-</script><tw-passagedata pid="1" name="Choose Your Character" tags="" position="2242,117" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">config.history.controls = false;</script><tw-passagedata pid="1" name="Choose Your Character" tags="" position="2242,117" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
 
 &lt;center&gt;
 	&lt;h3&gt;Choose Your Character&lt;/h3&gt;
