@@ -1,15 +1,13 @@
 # Project 4: Collaborative Interactive Narrative
 
-In this final project unit of the semester, you will collaborate on a team of 2-4 people to compose an **interactive narrative**: a hyperlinked series of choices giving readers a range of reading experiences. The open-source [Twine](https://twinery.org) platform allows you to do so with little more than plain text and some brackets – but also to bring in variables, conditional logic, images, CSS, and JavaScript if that's the kind of thing you're into. (A major advantage of working in teams: maybe only one of you wants to dig that deep, but you can all benefit nevertheless.)
+<strong> Preview 1: 4/4 </strong>
+In this preview we are showing the basic steps of our game. Right now we have CSS and the steps a player will take when playing the game. Each of the players are crossing paths and have multiple passages they can take. We are really happy with where we are right now. We had the goal of letting each person in the project make their own paths to make the game their own, so far we have accomplished that. Once we finish and are happy with the paths, we are going to use computer percentages in the code that will give the game a definitive ending and winner. We did decide every time a player hits “go home” they will lose. 
 
-In assigning this, I have three main goals for you: (1) to practice managing a complex project involving multiple team members; (2) to assess your own skills as a digital media composer, so as to find ways _you_ in particular can best contribute to a joint project; and (3) to integrate and consolidate the skills you've practiced across the semester.
+We also updated the introduction of our page and created an ending page. We do have some images to set the mood, but we will go in and make sure they fit well before the final draft. Twine was new to all of us, but we are all working together and getting the hang of it. We are also all pitching in different ideas and splitting the work. It has taken a lot of googling, but only a week into the project, we are making good strides and putting in a lot of work outside of class to help us accomplish our lofty goals for a final project. 
 
-I also hope you'll have fun with it!
+We have been using a collaboration method via group text. When someone gets on the twine we text to let everyone know and then we also let them know when we push something so the next person knows to pull. So far it has worked really well. We know we still have some work to do, and if we have time we would like to add sound, but for now we are happy with our progress and hope everyone enjoys our game. 
+Good Luck, don’t get caught! 
 
-As with earlier projects, the selection of content, and even genre, is your choice:  "narrative," in Twine, can include adventure or horror fiction, but also memoir, training manual, poetic meditation, and more. You're free to adapt an existing text, if you give credit to the source.
-
-## Generative constraints
-_This is a starting point; we'll discuss and update in class next week, as has been our usual process._
 
 **Baseline criteria**
 For a minimum grade of B, all projects for this unit must:
