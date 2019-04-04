@@ -135,7 +135,9 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">config.history.controls = false;
+
 
 
 </script><tw-passagedata pid="1" name="Choose Your Character" tags="" position="2242,117" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
@@ -148,11 +150,13 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		&lt;button class=&quot;btn-lg&quot;&gt; [[Laura]] &lt;/button&gt;
 		&lt;button class=&quot;btn-lg&quot;&gt; [[Tessa]] &lt;/button&gt;
 	&lt;/div&gt;
-&lt;/center&gt;</tw-passagedata><tw-passagedata pid="2" name="Jenny" tags="" position="1318,248" size="100,100">You&#39;ve chosen Jenny!
+&lt;/center&gt;</tw-passagedata><tw-passagedata pid="2" name="Jenny" tags="" position="1318,248" size="100,100">&lt;&lt;set $character to &#39;Jenny&#39;&gt;&gt;
+You&#39;ve chosen Jenny!
 
 Now you must look for a place to hide
 
-You can [[Roam the neighborhood]] or go to [[The alley]] by your house </tw-passagedata><tw-passagedata pid="3" name="Jared" tags="" position="1940,452" size="100,100">&lt;&lt;set $percent to 81&gt;&gt;
+You can [[Roam the neighborhood]] or go to [[The alley]] by your house </tw-passagedata><tw-passagedata pid="3" name="Jared" tags="" position="1943.3333333333333,452" size="100,100">&lt;&lt;set $percent to 81&gt;&gt;
+&lt;&lt;set $charcter to &#39;Jared&#39;&gt;&gt;
 
 &lt;&lt;if $percent &gt; 80 &gt;&gt;
     You&#39;ve Been Caught!
@@ -161,7 +165,8 @@ You can [[Roam the neighborhood]] or go to [[The alley]] by your house </tw-pass
     You start the game by running down the street looking 
 	do you turn right to look behind the [[Church]], turn left and look 	behind the [[blue house]] or keep going to the [[culdesac]]? 
 &lt;&lt;endif&gt;&gt;
-</tw-passagedata><tw-passagedata pid="4" name="Laura" tags="" position="2590,433" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name="Tessa" tags="" position="3516,320" size="100,100">First, you need to pick somewhere to hide. 
+</tw-passagedata><tw-passagedata pid="4" name="Laura" tags="" position="2590,433" size="100,100">&lt;&lt;set $character to &#39;Laura&#39;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Tessa" tags="" position="3516,320" size="100,100">&lt;&lt;set $character to &#39;Tessa&#39;&gt;&gt;
+First, you need to pick somewhere to hide. 
 
 You can go [[In the Garage ]] or [[Walk Around]] to keep looking</tw-passagedata><tw-passagedata pid="6" name="In the Garage " tags="" position="3677,488" size="100,100">You chose the garage, it&#39;s really dark and kind of creepy.
 You should probably [[look for a light.]] 
