@@ -1,3 +1,4 @@
 # Mac Files to Ignore #
 .DS_Store
 .DS_Store?
+*.DS_Store
