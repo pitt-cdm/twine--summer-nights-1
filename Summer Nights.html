@@ -128,48 +128,8 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 132b397086daa737737d4e233ff76c0c2cb5398d
-
-
-
-
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">config.history.controls = false;
 
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 132b397086daa737737d4e233ff76c0c2cb5398d
 
 
 
@@ -194,15 +154,14 @@ You&#39;ve chosen Jenny!
 Now you must look for a place to hide
 
 You can [[Roam the neighborhood]] or go to [[The alley]] by your house. </tw-passagedata><tw-passagedata pid="3" name="Jared" tags="" position="1943,452" size="100,100">&lt;&lt;set $percent to 81&gt;&gt;
-&lt;&lt;set $charcter to &#39;Jared&#39;&gt;&gt;
 
-&lt;&lt;if $percent &gt; 80 &gt;&gt;
+&lt;&lt;if $percent gte 80&gt;&gt;
     You&#39;ve Been Caught!
 	$percent
 &lt;&lt;else&gt;&gt;
     You start the game by running down the street looking 
 	do you turn right to look behind the [[Church]], turn left and look 	behind the [[blue house]] or keep going to the [[culdesac]]? 
-&lt;&lt;endif&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 </tw-passagedata><tw-passagedata pid="4" name="Laura" tags="" position="2580,384" size="100,100">You picked Laura! 
 
 The game begins, and you&#39;re scrambling to find a clever hiding spot where nobody will think to look. There are so many options!
@@ -230,7 +189,7 @@ It&#39;s time to [[Walk Around]] and try to find a new hiding spot.
 </tw-passagedata><tw-passagedata pid="11" name="bush" tags="" position="3552,635" size="100,100">good thing you wore your camo tongiht, there is no way anyone will find you in this bush. 
 But wait, you kind of feel a little bit itchy... oh no. 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-You think you just sat in [[poison ivy]]</tw-passagedata><tw-passagedata pid="12" name="poison ivy" tags="" position="3492,745" size="100,100">You&#39;re either being [[dramatic]], or you should [[probably go home ]]. </tw-passagedata><tw-passagedata pid="13" name="dramatic" tags="" position="3484,915" size="100,100">You were defintiely being dramatic, there is no poison ivy here. But you haven&#39;t heard anyone in awhile and are starting to get nervous, so you decided to go [[in the garage]].</tw-passagedata><tw-passagedata pid="14" name="probably go home " tags="" position="3665.6666666666665,1091" size="100,100">Sorry, I guess you can&#39;t hang. If you go home, you lose. 
+You think you just sat in [[poison ivy]]</tw-passagedata><tw-passagedata pid="12" name="poison ivy" tags="" position="3492,745" size="100,100">You&#39;re either being [[dramatic]], or you should [[probably go home ]]. </tw-passagedata><tw-passagedata pid="13" name="dramatic" tags="" position="3484,915" size="100,100">You were defintiely being dramatic, there is no poison ivy here. But you haven&#39;t heard anyone in awhile and are starting to get nervous, so you decided to go [[in the garage]].</tw-passagedata><tw-passagedata pid="14" name="probably go home " tags="" position="3665,1091" size="100,100">Sorry, I guess you can&#39;t hang. If you go home, you lose. 
 But the good news is, you can always [[Play Again-&gt;Choose Your Character]].</tw-passagedata><tw-passagedata pid="15" name="The alley" tags="" position="1308,435" size="100,100">The alley is a really good hiding spot, considering it&#39;s dark. But you hear a cat, and it keeps meowing. You think that the cat will give up your spot so you [[Roam the neighborhood]] again.
 
 &lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/alley.jpg&quot;/&gt;
