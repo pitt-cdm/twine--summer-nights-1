@@ -111,23 +111,21 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
  font-size: 24pt;
  color: white; 
  text-decoration: none;
- 
+ outline: 0;
 }
 .btn-lg:hover {
  color: white;
  text-decoration: none;
 }
+.btn-lg:link {
+ color: white; 
+}
 .row {
-  display: block;
+  display: inline-block;
 }
-.row button.last {
-  margin-right: 0;
-}
-
 .passage a {
   color: #2A1E70; 
 }
-
 .passage a:hover {
   color: #DDB1AA
 }
@@ -135,6 +133,8 @@ body[data-tags~="starting_page"] {
   background-color: black;
   color: white;
 }
+
+
 
 
 
@@ -181,23 +181,25 @@ body[data-tags~="starting_page"] {
 
 
 
+
+
 </script><tw-passagedata pid="1" name="Choose Your Character" tags="starting_page" position="2242,117" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
 
 Do you ever miss the days when the only thing you had to worry about was who was going to be &quot;it&quot; in your neighborhood game of jailbreak every summer night? We do too. But don&#39;t worry, when you log on to this game you will be taken back to those nights, doing everything you can to win, just becareful, the neighborhood may not be just how you remember.
 
 But be aware, there is no back button because once you get in, you can&#39;t get out.
-
-&lt;center&gt;
-	&lt;h3&gt;Choose Your Character&lt;/h3&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;button class=&quot;btn-lg&quot;&gt; [[Jenny]] &lt;/button&gt;
-		&lt;button class=&quot;btn-lg&quot;&gt; [[Jared]] &lt;/button&gt;
-		&lt;button class=&quot;btn-lg&quot;&gt; [[Laura]] &lt;/button&gt;
-		&lt;button class=&quot;btn-lg&quot;&gt; [[Tessa]] &lt;/button&gt;
-	&lt;/div&gt;
-&lt;/center&gt;
-
-[[credits]]</tw-passagedata><tw-passagedata pid="2" name="Jenny" tags="" position="1318,248" size="100,100">&lt;&lt;set $character to &#39;Jenny&#39;&gt;&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;center&gt;
+		&lt;h3&gt;Choose Your Character&lt;/h3&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;button class=&quot;btn-lg&quot;&gt; [[Jenny]] &lt;/button&gt;
+			&lt;button class=&quot;btn-lg&quot;&gt; [[Jared]] &lt;/button&gt;
+			&lt;button class=&quot;btn-lg&quot;&gt; [[Laura]] &lt;/button&gt;
+			&lt;button class=&quot;btn-lg&quot;&gt; [[Tessa]] &lt;/button&gt;
+		&lt;/div&gt;
+		&lt;button class=&quot;btn-lg&quot;&gt; [[credits]] &lt;/button&gt;
+	&lt;/center&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Jenny" tags="" position="1318,248" size="100,100">&lt;&lt;set $character to &#39;Jenny&#39;&gt;&gt;
 You&#39;ve chosen Jenny!
 
 Now you must look for a place to hide
@@ -261,7 +263,7 @@ Wait, you see a door that is slightly ajar, you could always [[open it]].
 
 &lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/blue_house.jpg&quot;/&gt;</tw-passagedata><tw-passagedata pid="24" name="culdesac" tags="" position="1940,887" size="100,100">You sprint to the cludesac hoping to not be spotted by the seeker behind you.
 Quickly scanning the area you spot [[small house]] that seems run down, a [[park]].
-You also look behind you and see that the [[street] is still clear.</tw-passagedata><tw-passagedata pid="25" name="parking lot" tags="" position="1673,746" size="100,100">You scan the parking lot and see a figure moving through the woods... You realize it&#39;s [[Laura-&gt;the woods]]. You also notice that you can still run back to the [[Church]] to try to find another way in.
+You also look behind you and see that the [[street]] is still clear.</tw-passagedata><tw-passagedata pid="25" name="parking lot" tags="" position="1673,746" size="100,100">You scan the parking lot and see a figure moving through the woods... You realize it&#39;s [[Laura-&gt;the woods]]. You also notice that you can still run back to the [[Church]] to try to find another way in.
 
 &lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/church_parking_lot.jpg&quot;/&gt;</tw-passagedata><tw-passagedata pid="26" name="street" tags="" position="1940,610" size="100,100">You double back to the street and survey your surroundings
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
@@ -273,7 +275,7 @@ The [[Church]] remains on your left while the [[blue house]] stands on your righ
 
 The [[Church]] remains on your left while the [[blue house]] stands on your right. You also look all the way down the street to the [[culdesac]] at the very end of the street.
 
-&lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/truck.jpg/&gt;</tw-passagedata><tw-passagedata pid="34" name="park" tags="" position="2151,1029" size="100,100">As you enter the park you see [[Jenny-&gt;playground]] over by the playground. You also see a [[Building-&gt;Ben&#39;s House]] through the treeline that looks like it could be open. You look behind you and see that the [[culdesac]] is still empty as well.
+&lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/truck.jpg/&gt;</tw-passagedata><tw-passagedata pid="34" name="park" tags="" position="2131,1029" size="100,100">As you enter the park you see [[Jenny-&gt;playground]] over by the playground. You also see a [[Building-&gt;Ben&#39;s House]] through the treeline that looks like it could be open. You look behind you and see that the [[culdesac]] is still empty as well.
 
 &lt;img src=&quot;https://raw.githubusercontent.com/pitt-cdm/twine--summer-nights-1/master/images/park.jpg&quot;/&gt;</tw-passagedata><tw-passagedata pid="35" name="Climb down" tags="" position="1295,896" size="100,100">Yay, safe on the ground. Gotta go [[find a new spot]]. </tw-passagedata><tw-passagedata pid="36" name="Risk it" tags="" position="1445,896" size="100,100">Oh no. The branch broke, you fell a few feet. You aren&#39;t hurt badly, but your leg does hurt a little bit. You can [[Go Home]] or go [[find a new spot]] again.</tw-passagedata><tw-passagedata pid="37" name="Go Home" tags="" position="1445,1046" size="100,100">You make your way home to get help from your parents. Sorry! this is the end of the game for you!! </tw-passagedata><tw-passagedata pid="38" name="old truck" tags="" position="3180,352" size="100,100">When you get to the old truck, you see Jenny is also trying to find a hiding spot there. 
 
@@ -426,7 +428,7 @@ You didn&#39;t win this round of jailbreak, so you still lose, but you did a goo
 
 No one likes a participation trophy, so [[play again-&gt;Choose Your Character]].
 
-</tw-passagedata><tw-passagedata pid="76" name="small house" tags="" position="1820,1030" size="100,100">You walk around the outside of the small house checking if there are any good spots to hide. You spot a basement [[door-&gt;Ben&#39;s House]] that looks to be unlocked</tw-passagedata><tw-passagedata pid="77" name="credits" tags="" position="2500.3333333333335,2" size="100,100">House 
+</tw-passagedata><tw-passagedata pid="76" name="small house" tags="" position="1820,1030" size="100,100">You walk around the outside of the small house checking if there are any good spots to hide. You spot a basement [[door-&gt;Ben&#39;s House]] that looks to be unlocked</tw-passagedata><tw-passagedata pid="77" name="credits" tags="" position="2500,2" size="100,100">House 
 https://www.flickr.com/photos/blackdoll/199099891
  
 girl and backyard 
